@@ -1,5 +1,6 @@
 vehicle = input("Enter vehicle type: ") 
 hours = int(input("Enter parking hours: ")) 
+number = input("Enter the number:")
 if vehicle == "two-wheeler":   
      fee = hours * 20 
 elif vehicle == "four-wheeler":   
@@ -11,3 +12,4 @@ print("Invalid vehicle type")
 print("Vehicle Type:", vehicle) 
 print("Parking Hours:", hours)
 print("Total Fee: Rs.", fee)
+print("vehicle number:",number)
